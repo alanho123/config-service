@@ -19,4 +19,7 @@ spring:
           timeout: 5 # default 5
           clone-on-start: true # default false
           force-pull: true # default false
-
+        encrypt:
+          enabled: true
+encrypt:
+  key: secret-pwd
